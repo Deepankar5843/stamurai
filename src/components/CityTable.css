@@ -1,0 +1,59 @@
+ .city-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .table-heading {
+    color: blue;
+  }
+  
+  .city-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-header-row {
+    background-color: rgb(38, 72, 84);
+    color: rgb(172, 85, 85);
+  }
+  
+  .city-table th,
+  .city-table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .city-table .city-name {
+    cursor: pointer;
+  }
+  
+  .even-row {
+    background-color: lightgrey;
+  }
+  
+  .odd-row {
+    background-color: white;
+  }
+  
+  /* Styles for filter dropdown */
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .select:focus {
+    border-color: #007bff;
+  }
+  

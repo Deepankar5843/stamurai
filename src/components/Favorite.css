@@ -1,0 +1,57 @@
+
+.favorite-container {
+  padding: 20px;
+}
+
+@media (device-width: 853px) and (device-height: 1280px) {
+  .favorite-container {
+ 
+  }
+}
+
+
+
+.heading {
+  font-weight: bold;
+}
+
+.sub-heading {
+  color: #3498db; 
+}
+
+.country {
+  color: #27ae60; 
+}
+
+.city {
+  color: #e74c3c; 
+}
+
+.favorite-list {
+  margin-top: 20px;
+}
+
+.favorite-item {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #e74c3c; 
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.remove-button:hover {
+  background-color: #c0392b; 
+}
